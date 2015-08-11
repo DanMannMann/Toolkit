@@ -8,6 +8,10 @@ namespace Marsman.Toolkit
     /// <summary>
     /// Extensions to convert strings between proper, pascal and camel case
     /// </summary>
+    /// <remarks>
+    ///   Source:
+    ///   http://blog.csharphelper.com/2010/06/13/convert-strings-between-pascal-case-camel-case-and-proper-case-in-c.aspx
+    /// </remarks>
     public static class CasingExtensions
     {
         /// <summary>
