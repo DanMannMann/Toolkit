@@ -9,12 +9,12 @@ namespace Marsman.Toolkit
 {
     public static class Comparers
     {
-        public LambdaComparer<T> Lambda<T>(Func<T, T, bool> equals, Func<T, int> getHashCode)
+        public static LambdaComparer<T> Lambda<T>(Func<T, T, bool> equals, Func<T, int> getHashCode)
         {
             return new LambdaComparer<T>(equals, getHashCode);
         }
 
-        public PropertyComparer<T> Property<T>(Func<T, object> selector)
+        public static PropertyComparer<T> Property<T>(Func<T, object> selector)
         {
             return new PropertyComparer<T>(selector);
         }
