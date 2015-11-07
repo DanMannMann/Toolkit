@@ -31,6 +31,12 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>MarsmanSigningKey.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -53,6 +59,7 @@
     <Compile Include="WpfExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="MarsmanSigningKey.pfx" />
     <None Include="_CreateNewNuGetPackage\Config.ps1" />
     <None Include="_CreateNewNuGetPackage\DoNotModify\CreateNuGetPackage.ps1" />
     <None Include="_CreateNewNuGetPackage\DoNotModify\New-NuGetPackage.ps1" />
