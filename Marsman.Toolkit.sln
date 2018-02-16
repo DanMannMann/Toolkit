@@ -1,27 +1,34 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marsman.Toolkit", "Marsman.Toolkit\Marsman.Toolkit.csproj", "{D2F9FD36-BF76-4CF7-BDE4-80554A867762}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{2C947837-5AEB-4A25-9917-206FDE435E70}"
-	ProjectSection(SolutionItems) = preProject
-		.nuget\NuGet.Config = .nuget\NuGet.Config
-		.nuget\NuGet.exe = .nuget\NuGet.exe
-		.nuget\NuGet.targets = .nuget\NuGet.targets
-	EndProjectSection
+# Visual Studio 15
+VisualStudioVersion = 15.0.26124.0
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marsman.Toolkit", "Marsman.Toolkit\Marsman.Toolkit.csproj", "{4C1ABBE2-FA18-417D-9EFC-FD171D5546C8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D2F9FD36-BF76-4CF7-BDE4-80554A867762}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D2F9FD36-BF76-4CF7-BDE4-80554A867762}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D2F9FD36-BF76-4CF7-BDE4-80554A867762}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D2F9FD36-BF76-4CF7-BDE4-80554A867762}.Release|Any CPU.Build.0 = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C1ABBE2-FA18-417D-9EFC-FD171D5546C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C1ABBE2-FA18-417D-9EFC-FD171D5546C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C1ABBE2-FA18-417D-9EFC-FD171D5546C8}.Debug|x64.ActiveCfg = Debug|x64
+		{4C1ABBE2-FA18-417D-9EFC-FD171D5546C8}.Debug|x64.Build.0 = Debug|x64
+		{4C1ABBE2-FA18-417D-9EFC-FD171D5546C8}.Debug|x86.ActiveCfg = Debug|x86
+		{4C1ABBE2-FA18-417D-9EFC-FD171D5546C8}.Debug|x86.Build.0 = Debug|x86
+		{4C1ABBE2-FA18-417D-9EFC-FD171D5546C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C1ABBE2-FA18-417D-9EFC-FD171D5546C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C1ABBE2-FA18-417D-9EFC-FD171D5546C8}.Release|x64.ActiveCfg = Release|x64
+		{4C1ABBE2-FA18-417D-9EFC-FD171D5546C8}.Release|x64.Build.0 = Release|x64
+		{4C1ABBE2-FA18-417D-9EFC-FD171D5546C8}.Release|x86.ActiveCfg = Release|x86
+		{4C1ABBE2-FA18-417D-9EFC-FD171D5546C8}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 EndGlobal
